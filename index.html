@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ="stylesheet" href ="css/html5reset.css">
-    <link rel ="stylesheet" href ="css/style.css">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.min.css">
     <title>Final Project 2025</title>
 </head>
+
 <body>
     <a class="skip-link" href="#main">Skip to main content</a>
     <header>
@@ -18,31 +21,31 @@
                 <li><a href="about.html">About</a></li>
             </ul>
         </nav>
-        <h1>Welcome To Vocaloid World</h1>
     </header>
     <main id="main">
+        <section class="home-section">
 
-        <!-- Hero Banner -->
-        <section class="hero">
-            <div class="hero-card">
-                <h2 class="hero-title">Vocaloid &amp; J-Pop Music Archive</h2>
-                <p class="hero-subtitle">
-                    A curated digital space for exploring the sound, aesthetics, and cultural impact
-                    of Vocaloid and J-pop.
+            <div class="home-left">
+                <h1 class="home-title">Welcome to the Vocaloid World</h1>
+                <h2 class="home-subtitle">
+                    Exploring digital voices and culture surrounding them.
+                    <br><br>
+                </h2>
+                <p class="home-text">
+                    Vocaloid is a singing voice synthesis technology developed by Yamaha that enables creators to
+                    produce music using virtual voicebanks such as 初音ミク (Hatsune Miku), 鏡音リン・レン (Kagamine Rin/Len),
+                    GUMI, and 巡音ルカ (Megurine Luka).
+                    <br>
+                    Since its release in the mid-2000s, Vocaloid has evolved from a
+                    production tool into a global creative ecosystem supported by composers, illustrators, animators,
+                    and online communities. It continues to influence digital music trends, virtual performance, and
+                    fan-driven culture across video platforms like Niconico and YouTube.
                 </p>
-
-                <p class="hero-text">
-                    Vocaloid is a voice-synthesis technology developed by Yamaha that enables creators
-                    to produce music using virtual singers such as 初音ミク (Hatsune Miku),
-                    鏡音リン・レン (Kagamine Rin/Len), 巡音ルカ (Megurine Luka), and others.
-                    Over time, it has grown into a global creative culture that shapes online music,
-                    illustration, animation, and fan communities.
-                </p>
-
-                <div class="hero-links">
-                    <a href="milestone.html" class="hero-button">View Milestone Songs</a>
-                    <a href="playlist.html" class="hero-button hero-button-secondary">Browse Playlist</a>
-                    <a href="about.html" class="hero-link-text">About Author →</a>
+            </div>
+            <div class="home-right">
+                <div class="home-img-card" tabindex="0">
+                    <a href="img/home_img.jpeg" data-lightbox="home" data-title="home page image">
+                        <img class="home-img" src="img/home_img.jpeg" alt="Album art for home page image."></a>
                 </div>
             </div>
         </section>
@@ -51,6 +54,8 @@
     <footer>
         <p>Copyright 2025 Cassie. All rights reserved.</p>
     </footer>
-    <script></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox.min.js"></script>
 </body>
+
 </html>
