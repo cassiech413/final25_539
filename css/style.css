@@ -38,6 +38,7 @@ header h1{
 }
 
 body{
+    background-color: black;
     background-image: url("../img/background.png");
     background-size: cover;
     background-attachment: fixed;
