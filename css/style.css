@@ -38,8 +38,8 @@ header h1{
 }
 
 body{
-    background-color: black;
     background-image: url("../img/background.png");
+    background-color: black;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
